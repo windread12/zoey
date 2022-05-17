@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{
+	outline: auto;
+} */
+
+.bgn{
+	background-color:#F7F7F7;
+}
+
+
+.nav {
+	padding:0 80px;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #8B7E7B;
+}
+
+p{
+	padding: 8px;
+	line-height: 1.5rem;
+	color: #3F3B3A;
+	font-size: 16px;
+	font-family: 'Noto Sans TC';
+}
+
+h2{
+	font-family: 'Noto Sans TC';
+	font-size: 18px;
+	margin: 8px;
+	color: #3F3B3A;
+}
+
+
+.title_image{
+	width: 100vw;
+}
+
+.main{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.menu a {
+	display: flex;
+	align-items: center;
+	padding: 0 16px;
+
+	color: #3F3B3A;
+	height: 55px;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color:#F7F7F7;
+	background-color: #8B7E7B;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+} 
+
+.menu li{
+	list-style: none;
+}
+
+.nav .logo{
+	width: 56px;
+	height:56px;
+}
+
+
+.head_photo{
+	margin: 1vw;
+	border: 3px solid #FFFFFF;
+	box-shadow: 5px 9px 17px -1px rgba(0, 0, 0, 0.1);
+	height: 20vw;
+	width: 20vw;
+	border-radius: 50%;
+}
+
+.aboutme_block{
+	display: flex;
+	margin: 16px;
+}
+
+
+.protfolio{
+	margin: 24px 0px;
+}
+
+.protfolio_h2{
+	display: flex;
+	flex-wrap: wrap;
+	height: 32px;
+	width: auto;
+	border-bottom: 1px solid #ddd3d1;
+	padding: 8px 0px 8px 8px;
+	color: #3F3B3A;
+	font-family: 'Noto Sans TC';
+	font-size: 24px;
+}
+
+.protfolio_block{
+	display: flex;
+	flex-direction: row;
+	
+}
+.protfolio_block img{
+	border-radius: 18px;
+	width: 100%;
+}
+
+.protfolio_block a{
+	border-radius: 10px;
+	width: 50vw;
+	margin: 1vw;
+	padding: 1vw;
+	text-decoration: none;
+	color: #3F3B3A;
+	background-color: white;
+	box-shadow: 5px 9px 17px -1px rgba(0, 0, 0, 0.1);
+}
+
+.education{
+	display: flex;
+	margin: 16px;
+}
+
+.education img{
+	width: 10vw;
+}
+
+.education_block{
+	padding:0px 24px;
+}
+
+.discription {
+	font-size: 14px;
+	line-height: 0.5rem;
+	color: #8B7E7B;
+}
+
+.discription_list {
+    line-height: 1.5rem;
+    list-style: disc;
+    color: #3F3B3A;
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+	margin: 24px;
+}
+
